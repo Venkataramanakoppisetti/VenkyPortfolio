@@ -1,0 +1,123 @@
+.project-item-container {
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+  width: 80vw;
+  background-color: #e28a16;
+  margin-bottom: 20px;
+  box-shadow: rgb(143, 139, 139) 1px 1px 1px 1px;
+  border-radius: 15px;
+}
+
+.project-content-container {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  width: 40vw;
+  margin: 20px;
+}
+
+.project-image {
+  height: 50vh;
+  width: 25vw;
+}
+
+.buttons-container {
+  margin-top: 10px;
+}
+
+.view-project-button {
+  height: 45px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #ffffff;
+  margin-right: 10px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-width: 0;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+.view-project-button:hover {
+  height: 45px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: #37e70a;
+  box-shadow: #5ebb46 0px 7px 29px 0px;
+  color: white;
+  letter-spacing: 1.5px;
+}
+
+.view-project-button:active {
+  height: 45px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: #dc5d19;
+  box-shadow: #dc5d19 0px 7px 29px 0px;
+  color: white;
+  letter-spacing: 1.5px;
+  transform: translateY(10px);
+}
+
+.delete-project-button {
+  height: 45px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #ffffff;
+  margin-right: 10px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-width: 0;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+.delete-project-button:hover {
+  height: 45px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: #ee0808;
+  box-shadow: #ee0808 0px 7px 29px 0px;
+  color: white;
+  letter-spacing: 1.5px;
+}
+
+.delete-project-button:active {
+  height: 45px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: #dc5d19;
+  box-shadow: #dc5d19 0px 7px 29px 0px;
+  color: white;
+  letter-spacing: 1.5px;
+  transform: translateY(10px);
+}
+
+.project-title {
+  color: var(--font-high-emphasis, #25282b);
+  font-family: Playfair Display;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.project-category {
+  color: var(--font-high-emphasis, #25282b);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.project-description {
+  color: var(--font-medium-emphasis, #1b1919);
+  font-family: Nunito;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+}
